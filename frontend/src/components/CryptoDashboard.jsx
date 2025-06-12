@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Button } from './ui/button';
+import { Button } from '@/components/ui/button';
 import { Select, SelectItem } from './ui/select';
 import { Card, CardContent } from './ui/card';
 import { toast } from 'react-toastify';
