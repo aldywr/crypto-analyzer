@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Button } from '@/components/ui/button';
-import { Select, SelectItem } from '@/components/ui/select';
-import { Card, CardContent } from '@/components/ui/card';
+import { Button } from './ui/button';
+import { Select, SelectItem } from './ui/select';
+import { Card, CardContent } from './ui/card';
 import { toast } from 'react-toastify';
 import { createChart } from 'lightweight-charts';
 import 'react-toastify/dist/ReactToastify.css';
